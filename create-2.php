@@ -24,7 +24,7 @@ include('functions/CreateSellerError.php');
     <title>MyCloset</title>
 </head>
 <body>
-    <a class = "header-title" href = "index.php">MyCloset</a>
+    <a class = "header-title" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
 
     <div class="create-pad-2 lower-create-pad" style = "top: 50px;">
         <form class="create-pad-2 upper-create-pad" style="top: -10px;" method="post">

@@ -29,16 +29,16 @@
       <div>
         <header class="title_bar">
             <div class="top">
-              <a class="logo_MyCloset" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+              <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
                 <div class="icon">
-                  <a class="LOGIN_TEXT" href="MSDS.php">登入</a> <!--跳轉頁面 登入-->
+                  <a class="LOGIN_TEXT" style="color:white;text-decoration:none" href="MSDS.php">登入</a> <!--跳轉頁面 登入-->
                 </div>
             </div>
             
           <nav class="option_box">
             <div class="table">
-              <div><a href="index.php" class="Home">首頁</a></div>
-              <div><a href="index.php" class="Home">客服中心</a></div>
+              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">首頁</a></div>
+              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">客服中心</a></div>
             </div>
       
             <div class="wrap">
@@ -77,7 +77,7 @@
       <div>
         <header>
           <div class="top">
-            <a class="logo_MyCloset" href="index.php">MyCloset</a>
+            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a>
               <div class="icon">
               <form method = "post">
                 <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">
@@ -130,7 +130,7 @@
 
         <header class="title_bar">
           <div class="top">
-            <a class="logo_MyCloset" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
             <div class="icon">
               <form method = "post">
                 <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">
@@ -163,7 +163,7 @@
       </div>
     <?php } ?>
     <footer class="text-center text-lg-start bg-light text-muted mt-3 ">
-        <div class="text-center p-4" style="background-color: #E0C097;color:#edf2c5">
+        <div class="text-center p-4" style="background-color: #000000;color:#edf2c5">
         © 2022 Copyright MyCloset / Design by Terra
       </div>
     </footer>

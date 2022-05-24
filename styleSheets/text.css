@@ -51,16 +51,16 @@ body{
 .login-text-1{
     position: relative;    
 
-    font-size: 40px;
+    font-size: 35px;
     color:  #505f8a;
     }
 
-.login-text-2{
+/* .login-text-2{
     position: relative;
 
     font-size: 30px;
     color:  #505f8a;
-    }
+    } */
 
 .login-btn-text, 
 .next-btn-text, 
