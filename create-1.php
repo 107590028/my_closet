@@ -49,10 +49,6 @@ if(isset($_POST['next']) &&
                 Create your account
             </div>
 
-            <!-- <div class="login-text-2" style="top: -20px; left: 170px;">
-                
-            </div> -->
-
             <input type = "text" name="email" class="text-input" style ="top: 100px;" placeholder="電子信箱"></input>
 
             <label class="error-text" style="top: 130px; left:75px;">
@@ -94,7 +90,7 @@ if(isset($_POST['next']) &&
             <div class = "login-btn lower-login-btn" style="top: 405px;">
                 <input type = "submit" name = "next" class = "next-btn upper-next-btn next-btn-text" style="top:-7px;" value = "下一步">
             </div>
-
+            
             <div class="create-text-0 font" style="top: 313px; bottom: 12px;left:142px;">已經有帳號?<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
         </form>
     </div>

@@ -44,7 +44,7 @@
             <div class="wrap">
               <div class="search">
                 <input class="search-bar" type="text" name="search" id="search" placeholder="搜尋">
-                <button class="search-btn"><img src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png"style="display:block" width="20px" height="20px" ></button>
+                <button class="search-btn"><img src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png"style="display:block;color:#edf2c5" width="20px" height="20px" ></button>
                 <!--跳轉頁面 搜尋結果-->
               </div>
             </div>
@@ -80,16 +80,16 @@
             <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a>
               <div class="icon">
               <form method = "post">
-                <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">
+                <input type = "submit" style="color:white;text-decoration:none" class = "Logout_TEXT" name = "logout" value = "登出">
               </form>
               </div>
           </div>
             
           <nav class="option_box">
             <div class="table">
-              <div><a href="index.php" class="Home">首頁</a></div>
-              <div><a href="MSMS.php" class="Home">我的檔案</a></div>
-              <div><a href="index.php" class="Home">客服中心</a></div>
+              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">首頁</a></div>
+              <div><a href="MSMS.php" style="color:#edf2c5;text-decoration:none" class="Home">我的檔案</a></div>
+              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">客服中心</a></div>
             </div>
       
             <div class="wrap">
@@ -97,7 +97,7 @@
               <div class="cart"><a href="#"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/empty-shopping-cart-1431173-1208877.png"style="display:block"width="25px" height="25px" ></a></div>
               <div class="search">
                 <input class="search-bar" type="text" name="search" id="search" placeholder="搜尋">
-                <button class="search-btn"><img src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png"style="display:block" width="20px" height="20px" ></button>
+                <button class="search-btn"><img src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png"style="display:block;color:#edf2c5" width="20px" height="20px" ></button>
                 <!--跳轉頁面 搜尋結果-->
               </div>
             </div>
@@ -133,7 +133,7 @@
             <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
             <div class="icon">
               <form method = "post">
-                <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">
+                <input type = "submit" style="color:white;text-decoration:none" class = "Logout_TEXT" name = "logout" value = "登出">
               </form> <!--跳轉頁面 登出-->
               </div>
           </div>

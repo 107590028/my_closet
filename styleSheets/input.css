@@ -33,16 +33,18 @@ input[type = "radio"]{
     -webkit-appearance: none;
     }
 
+
+    
 .radio-input{
     height: 40px;
-    width: 120px;
-
+    width: 40px;
+    
     border: solid 3px #BFC9CA;
     transition: 1s;
 
     position: absolute;
     float: left;
-    }
+}
 
 .radio-input:checked{
     border-radius: 20px;
@@ -50,7 +52,7 @@ input[type = "radio"]{
     }
 
 .radio-input:checked + .identity-text-1{
-    color: #FDFEFE;
+    color: #585858;
     }
 
 /*https://dev.to/codeclown/styling-a-native-date-input-into-a-custom-no-library-datepicker-2in*/

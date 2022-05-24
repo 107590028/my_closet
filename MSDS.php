@@ -22,7 +22,7 @@ include('functions/loginError.php');
       <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">
 </head>
 <body>
-    <a class = "logo_MyCloset2" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
+    <a class = "logo_MyCloset" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
 
     <div class="login-pad lower-login-pad" style = "top: 100px;">
         <form method = "post" class = "login-pad upper-login-pad" style="top: -10px;">

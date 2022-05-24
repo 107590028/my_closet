@@ -1,5 +1,5 @@
 body {
-  background-color: #fffdf0;
+  background-color: #fff1f1;
   box-sizing: border-box;
 }
 
@@ -23,22 +23,6 @@ body {
   color: #000000;
   margin-bottom: 20px;
   padding-left: 30px;
-} 
-
-
-
-.logo_MyCloset2 {
-  width: 271px;
-  height: 42px;
-  font-family: Arial;
-  font-size: 44px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  text-align: center;
-  color: #000000;
-  top: 20px;
-  padding: 40px 40px;
 } 
 
 .top{
@@ -82,7 +66,7 @@ body {
 }
 
 .Logout_TEXT{
-  background-color: #FF7878;
+  background-color: #000000;
   border-radius: 3px;
   border-width: 0;
   color: #ffffff;
