@@ -1,0 +1,43 @@
+.guest-lower-header, .lower-login-pad, .lower-login-btn, .lower-create-pad{
+    background-color: #99A3A4;
+    }
+
+.upper-login-pad,.upper-create-pad{
+    background-color: #FDFEFE;
+    }
+
+.upper-edit-info-btn{
+    background-color: #FAD7A0;
+    }
+
+
+.shopping-cart-lower-pad{
+    background-color: #F3C892;
+}
+
+.shopping-cart-upper-pad{
+    background-color: #FAEDC6;
+}
+
+.shopping-info-color{
+    background-color:#cce3fd
+}
+
+.listC{
+    text-align:center;
+    color:#474747;
+}
+
+.okBtn{
+    background-color: #FF7878;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Arial Black";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    width: 50px;
+    margin-right: 5px;
+    padding-top: 3px;
+  }

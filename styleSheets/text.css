@@ -1,0 +1,176 @@
+body{
+    background-color: #fffdf0;
+    box-sizing: border-box;
+    }
+
+.font{
+    font-family: Arial;
+}
+.header-title{
+    width: 271px;
+    height: 42px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: left;
+    color: #FF7878;
+    padding: 30px;
+    }
+
+.login-text, .sub-system-text{
+    text-decoration: none;
+    font-size: 20px;
+    color: #778a50;
+
+    position: relative;
+    }
+
+.login-text{
+    float: right;
+    top: 30px;
+    right: 20px;
+    }
+
+.logout-text, .cancel-text{
+    font-size: 20px;
+    color: #3f3f3f;
+    font-family:  'Microsoft JhengHei';  
+    }
+
+.cancel-text{
+    font-size: 30px;
+    text-decoration: none;
+    }
+
+.sub-system-text{
+    float: left;
+
+    top: 45px;
+    }
+
+.login-text-1{
+    position: relative;    
+
+    font-size: 40px;
+    color:  #778a50;
+    }
+
+.login-text-2{
+    position: relative;
+
+    font-size: 30px;
+    color:  #b7d47c;
+    }
+
+.login-btn-text, 
+.next-btn-text, 
+.edit-btn-text{
+    font-size: 20px;
+    color: #FDFEFE;
+    }
+
+.create-text-0{
+    position: relative; 
+    font-size: 15px;
+    color: #BFC9CA;
+    }
+
+.create-text-1{
+    position: relative;
+    font-size: 15px;
+    color: #99A3A4;
+    }
+
+.identity-text-0{
+    position: relative;
+
+    font-size: 20px;
+    color: #BFC9CA;
+    }
+
+.identity-text-1{
+    position: relative;
+    transition: 1s;
+
+    font-size: 15px;
+    color: #BFC9CA;
+    }
+
+.error-text{
+    position: absolute;
+    font-family: 'Microsoft JhengHei';
+    font-size: 15px;
+    color: red;
+    }
+
+.add-product{
+    font-size: 30px;
+    color: #3f3f3f;
+
+    font-family: sans-serif;
+    font-style: bold;
+    }
+
+.info-text{
+    font-size: 30px;
+    color: #FDFEFE;
+    font-weight: 400;
+
+    font-family: 'Microsoft JhengHei';
+    position: absolute;
+    left: 30px;
+    }
+
+.Seller-Info-text{
+    font-size: 30px;
+    color: #3f3f3f;
+    font-weight: 300;
+    
+    font-family:  'Microsoft JhengHei';
+    position: absolute;
+    left: 30px;
+}
+
+.add-product-text-0, 
+.add-product-text-1,
+.product-card-text{
+    color: #3f3f3f;
+    }
+
+.add-product-text-0{
+    position: relative;
+    font-family:  'Microsoft JhengHei';
+    font-size: 40px;
+    top: -15px;
+    left: 180px;
+    }
+
+.add-product-text-1{
+    font-size: 20px;
+    font-family:  'Microsoft JhengHei';
+    }
+
+.product-card-text,
+.upper-edit-product-btn{
+    position: relative;
+    font-size: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: #FDFEFE;
+    }
+
+.edit-product{
+    position: relative;
+    font-size: 20px;    
+
+    color: #FDFEFE;
+    text-decoration: none;
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    left: 70px;
+    top: 7px;
+    }

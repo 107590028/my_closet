@@ -1,0 +1,176 @@
+.text-input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    color: #BFC9CA;
+
+    font-size: 20px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #BFC9CA;
+
+    width: 250px;
+
+    position: absolute;
+    left: 75px;
+    }
+
+img[src = ""]{
+    opacity: 0;
+    }
+
+input::placeholder{
+    color: #BFC9CA;
+    }
+
+textarea::placeholder{
+    color: #BFC9CA;
+    }
+
+input[type = "radio"]{
+    -webkit-appearance: none;
+    }
+
+.radio-input{
+    height: 40px;
+    width: 120px;
+
+    border: solid 3px #BFC9CA;
+    transition: 1s;
+
+    position: absolute;
+    float: left;
+    }
+
+.radio-input:checked{
+    border-radius: 20px;
+    background-color: #BFC9CA;
+    }
+
+.radio-input:checked + .identity-text-1{
+    color: #FDFEFE;
+    }
+
+/*https://dev.to/codeclown/styling-a-native-date-input-into-a-custom-no-library-datepicker-2in*/
+
+.date-input{
+    border: none;
+    outline: none;
+
+    font-size: 20px;
+    color: #BFC9CA;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #BFC9CA;
+
+    width: 250px;
+
+    position: absolute;
+    left: 75px;
+    }
+
+.add-product{
+    position: relative;
+    border: none;
+    outline: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    }
+
+.edit-info-text-input{
+    position: absolute;
+    border: none;
+    outline: none;
+
+    width: 320px;
+
+    background-color: transparent;
+
+    border-bottom: 2px #3f3f3f solid;
+    }
+
+.create-seller-description{
+    height: 150px;
+    width: 300px;
+
+    outline: none;
+    resize: none;
+
+    position: relative;
+
+    border: 2px #BFC9CA solid;
+    font-size: 20px;
+    color: #BFC9CA;
+
+    left: 50px;
+    }
+
+.add-product-text-input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    font-size: 20px;
+    color: #3f3f3f;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #3f3f3f;
+
+    width: 250px;
+
+    position: relative;
+    left: 40px;
+    }
+
+.add-product-text-input::placeholder, 
+.add-pproduct-description::placeholder,
+.edit-description::placeholder{
+    color: #7e7e7e;
+    font-family:  'Microsoft JhengHei';
+    }
+
+.add-pproduct-description{
+    outline: none;
+    resize: none;
+
+    border: 2px #3f3f3f solid;
+    background-color: transparent;
+    width: 420px;
+    height: 145px;
+    font-size: 20px;
+
+    color: #3f3f3f;
+
+    position: relative;
+    left: 40px;
+    top: 20px;
+    }
+
+.add-img-plus{
+    font-size: 200px;
+    color: #196F3D;
+
+    position: relative;
+}
+
+.edit-description{
+    outline: none;
+    resize: none;
+
+    border: 2px #3f3f3f solid;
+    background-color: transparent;
+    width: 300px;
+    height: 145px;
+    font-size: 30px;
+
+    color: #3f3f3f;
+
+    position: relative;
+    left: 40px;
+    top: 20px;
+    }

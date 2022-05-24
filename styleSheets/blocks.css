@@ -1,0 +1,211 @@
+.header{
+    height: 80px;
+    width: 100%;
+
+    border-radius: 10px;
+    }
+
+.upper-header{
+    position: relative;
+    top: -80px;
+    }
+
+.lower-header{
+    position: relative;
+    top: 10px;
+    transition: 1s;
+    }
+
+.lower-header:hover{
+    transform: translateY(35px);
+    }
+
+.login-pad, .create-pad-2{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.next-btn, 
+.login-btn,
+.create-btn,
+.upper-add-product-btn,
+.lower-add-product-btn{
+    outline: none;
+    border: none;
+
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+.upper-login-btn:active,
+.upper-next-btn:active,
+.upper-add-product:active, 
+.upper-edit-info-btn:active,
+.upper-add-product-btn:active,
+.upper-edit-seller:active,
+.upper-edit-product-btn:active{
+    transform: translateY(3px);
+    }
+
+
+
+.create-pad{
+    height: 570px;
+    width: 400px;
+    border-radius: 20px;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.logout-btn{
+    outline: none;
+    border: none;
+
+    height: 30px;
+    width: 70px;
+
+    position: relative;
+    float: right;
+    top: -20px;
+    right: 20px;
+    }
+
+.upper-info, .lower-info{
+    height: 350px;
+    width: 800px;
+    border-radius: 10px;
+    top:20px;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.upper-info, .upper-add-product,
+.upper-add-product-pad, 
+.upper-add-product-btn,
+.upper-edit-product-pad{
+    position: relative;
+    top: -10px;
+    }
+
+.upper-edit-info-btn,
+.upper-edit-seller{
+    position: relative;
+    top: -6px;
+    }
+
+.upper-add-product-pad,
+.lower-edit-product-pad,
+.upper-edit-product-pad{
+    height: 500px;
+    width: 500px;
+    top: 30px;
+    border-radius: 10px;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.edit-info-btn{
+    border: none;
+    outline: none;
+
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+
+    position: absolute;
+    }
+
+.cancel-text{
+    outline: none;
+    border: none;
+    background: transparent;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    }
+
+.img-block{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+    position: relative;
+    }
+
+.upper-select-img-btn, 
+.lower-select-img-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+
+    position: relative;
+    }
+
+.lower-product-card, 
+.upper-product-card{
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+
+    position: relative;
+    
+    float: left;
+    }
+
+.lower-product-card{
+    margin-left: 20px;
+    margin-top: 20px;
+    top: 30px;
+}
+
+.upper-product-card{
+    top: -10px;
+    }
+
+.product-card-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+    }
+
+.upper-edit-product-btn,
+.lower-edit-product-btn{
+    position: relative;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    }
+
+.upper-edit-product-btn{
+    top: -7px;
+
+    outline: none;
+    border: none;
+    }
+
+.lower-edit-product-btn{
+    left: 10px;
+
+    top: 20px;
+    }

@@ -1,0 +1,42 @@
+.product{
+    width: 100%;
+    height: 900px;
+    margin-top:25px;
+}
+
+.upper-product-card{
+    height: 280px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border-style:dotted;
+    border-color: rgb(170, 170, 170);
+    border-width: 2px;
+    
+    float: left;
+    margin:10px;
+}
+
+.product-card-img{
+    width: 75%;
+}
+
+.product-card-text{
+    position: relative;
+    font-size: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: #548057;
+}
+
+.btn-green {
+    color: #548057;
+    background-color: #ffffff;
+    border-color: #548057;
+}
+
+.btn-border-green{
+    border-color: #548057;
+}

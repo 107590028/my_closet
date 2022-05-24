@@ -1,0 +1,60 @@
+.guest-upper-header, 
+.upper-login-btn, 
+.upper-next-btn{
+    background-color: #778a50;
+    }
+
+.customer-upper-header, 
+.customer-logout, 
+.customer-upper-info{
+    background-color: #f1cbaa;
+    }
+
+.customer-lower-header, 
+.customer-lower-info, 
+.lower-edit-cust{
+    background-color: #ffe0c5;
+    }
+
+.seller-upper-header, 
+.seller-logout, 
+.seller-upper-info, 
+.upper-add-product, 
+.upper-add-product-pad,
+.upper-product-card,
+.upper-edit-product-pad{
+    background-color: #a0ffc8;
+    }
+
+.upper-add-product-btn,
+.upper-edit-seller,
+.upper-edit-product-btn{
+    background-color: #82E0AA;
+    }
+
+.seller-lower-header, 
+.seller-lower-info, 
+.lower-add-product, 
+.lower-add-product-pad,
+.lower-add-product-btn,
+.img-block,
+.lower-select-img-btn,
+.lower-edit-seller,
+.lower-product-card,
+.lower-edit-product-btn,
+.lower-edit-product-pad{
+    background-color: #82eeaf;
+    
+    }
+
+.guest-lower-header, .lower-login-pad, .lower-login-btn, .lower-create-pad{
+    background-color: #e1f3be;
+    }
+
+.upper-login-pad,.upper-create-pad{
+    background-color: #f4f8ea;
+    }
+
+.upper-edit-info-btn{
+    background-color: #FAD7A0;
+    }
