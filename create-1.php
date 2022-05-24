@@ -49,7 +49,7 @@ if(isset($_POST['next']) &&
                 Create
             </div>
 
-            <div class="login-text-2" style="top: -5px; left: 170px;">
+            <div class="login-text-2" style="top: -20px; left: 170px;">
                 your account
             </div>
 
@@ -77,7 +77,7 @@ if(isset($_POST['next']) &&
                 <?php echo $CreateError['phone']; ?>
             </label>
 
-            <label class="identity-text-0" style="top: 260px; left: 75px;">你是?</label>
+            <label class="identity-text-0" style="top: 230px; left: 75px;">你是?</label>
 
             <label class="error-text" style="top: 420px; left:75px;">
                 <?php echo $CreateError['identity']; ?>
