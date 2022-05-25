@@ -19,7 +19,7 @@ $description = $info[0]['Description'];
 ?>
 
 <div class = "lower-info seller-lower-info">
-    <div class = "upper-info seller-upper-info">
+    <div class = "seller-upper-info">
         <div class = "Seller-Info-text" style="top: 40px;">
             <?php echo "使用者名稱"; ?>
         </div>

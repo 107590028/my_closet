@@ -54,7 +54,7 @@
         <div class="container">
           <div class="row">
             <?php foreach ($products as $product) {?>
-              <form class="col-md-2 mt-3" method="post">
+              <form class="col-md-3 mt-3" method="post">
                 <div class="card">
                     <img class="rounded d-block" src = "<?php echo $product[5]; ?>">
 
@@ -107,7 +107,7 @@
         <div class="container">
           <div class="row">
             <?php foreach ($products as $product) {?>
-              <form class="col-md-2 mt-3" method="post">
+              <form class="col-md-3 mt-3" method="post">
                 <div class="card">
                     <img class="rounded d-block" src = "<?php echo $product[5]; ?>">
 

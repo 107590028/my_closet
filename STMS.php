@@ -24,14 +24,14 @@ $products = mysqli_fetch_all($result);
 
       
     <div class="container ">
-        <form class="col-md-2 mt-3 " method = "post">
+        <form class="col-md-3 mt-3 " method = "post">
             <div style="top: 30px;">
                 <input class = "btn btn-primary seller-card-color" type = "submit" name = "add-product" value = "+">    
             </div>
         </form>
         <div class="row">
         <?php foreach ($products as $product) {?>
-            <form class="col-md-2 mt-3 " method="post">
+            <form class="col-md-3 mt-3 " method="post">
             <div class="card seller-card-color ">
                 <img class="rounded d-block" src = "<?php echo $product[5]; ?>">
 
