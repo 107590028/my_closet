@@ -19,7 +19,7 @@ include('functions/loginError.php');
     <title>登入C&Z</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" href="home.css">
-      <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">
+      <link href="images/C&Z128.ico" rel="shortcut icon">
 </head>
 <body>
     <a class = "logo_MyCloset" style="color:black;text-decoration:none" href = "index.php">C&Z</a>

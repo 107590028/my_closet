@@ -36,7 +36,7 @@ if(isset($_POST['next']) &&
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="styleSheets/product.css">
-    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">    
+    <link href="images/C&Z128.ico" rel="shortcut icon">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C&Z</title>
 </head>
@@ -93,7 +93,7 @@ if(isset($_POST['next']) &&
                 <input type = "submit" name = "next" class = "next-btn upper-next-btn next-btn-text" style="top:-18px;" value = "下一步">
             </div>
             
-            <div class="create-text-0 font" style="top: 3px; bottom: 12px;left:138px;">已經有帳號？<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
+            <div class="create-text-0 font" style="top: 330px; bottom: 12px;left:138px;">已經有帳號？<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
         </form>
     </div>
 
