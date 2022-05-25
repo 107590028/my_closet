@@ -113,8 +113,8 @@ body{
 
 .info-text{
     font-size: 30px;
-    color: #FDFEFE;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 300;
 
     font-family: 'Microsoft JhengHei';
     position: absolute;
@@ -123,7 +123,7 @@ body{
 
 .Seller-Info-text{
     font-size: 30px;
-    color: #3f3f3f;
+    color: #424242;
     font-weight: 300;
     
     font-family:  'Microsoft JhengHei';
@@ -131,10 +131,10 @@ body{
     left: 30px;
 }
 
-.add-product-text-0, 
+
 .add-product-text-1,
 .product-card-text{
-    color: #3f3f3f;
+    color: #ffffff;
     }
 
 .add-product-text-0{
@@ -143,6 +143,7 @@ body{
     font-size: 40px;
     top: -15px;
     left: 180px;
+    color: #000000;
     }
 
 .add-product-text-1{

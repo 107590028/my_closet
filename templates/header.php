@@ -44,9 +44,9 @@ if(isset($_POST['logout'])){
                 
             <nav class="option_box">
                 <div class="table">
-                <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">首頁</a></div>
-                <div><a href="MSMS.php" style="color:#edf2c5;text-decoration:none" class="Home">我的檔案</a></div>
-                <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">客服中心</a></div>
+                <div><a href="index.php" class="Home">首頁</a></div>
+                <div><a href="MSMS.php" class="Home">我的檔案</a></div>
+                <div><a href="index.php" class="Home">客服中心</a></div>
                 </div>
         
                 <div class="wrap">
@@ -73,8 +73,8 @@ if(isset($_POST['logout'])){
                 
             <nav class="option_box">
                 <div class="table">
-                    <div><a href="STMS.php" style="color:#edf2c5;text-decoration:none" class="Home">我的商品</a></div>
-                    <div><a href="SEMS.php" style="color:#edf2c5;text-decoration:none" class="Home">商家檔案</a></div>
+                    <div><a href="STMS.php" class="Home">我的商品</a></div>
+                    <div><a href="SEMS.php" class="Home">商家檔案</a></div>
                 </div>
             </nav>
         </header>

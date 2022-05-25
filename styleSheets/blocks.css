@@ -100,7 +100,7 @@
 .upper-info, .lower-info{
     height: 350px;
     width: 800px;
-    border-radius: 10px;
+    border-radius: 5px;
     top:20px;
 
     position: relative;
@@ -125,7 +125,7 @@
 .upper-add-product-pad,
 .lower-edit-product-pad,
 .upper-edit-product-pad{
-    height: 500px;
+   
     width: 500px;
     top: 30px;
     border-radius: 10px;
@@ -136,10 +136,11 @@
     }
 
 .edit-info-btn{
+    top: 3px;
     border: none;
     outline: none;
 
-    height: 30px;
+    height: 40px;
     width: 70px;
     border-radius: 5px;
 

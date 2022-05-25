@@ -55,7 +55,7 @@ body {
 
 .LOGIN_TEXT{
   background-color: #000000;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #ffffff;
   font-family: "Arial Black";
   font-size: 14px;
@@ -69,17 +69,17 @@ body {
 
 .Logout_TEXT{
   background-color: #000000;
-  border-radius: 3px;
+  border-radius: 5px;
   border-width: 0;
   color: #ffffff;
   font-family: "Arial Black";
   font-size: 14px;
   font-weight: bold;
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 50px;
+  
   margin-right: 5px;
-  padding-top: 3px;
   cursor: pointer;
 }
 
@@ -126,7 +126,12 @@ body {
   font-size: 18px;
   font-weight: 900;
   font-family: "Arial Black", sans-serif;
-  color: #edf2c5;
+  color: #ffffff;
+}
+
+.Home:hover {
+  color: #ffffff;
+  text-decoration:transparent;
 }
 
 .wrap{
@@ -165,7 +170,7 @@ body {
   outline:whitesmoke;
   border-width: 0px;
   margin:auto auto auto auto;
-  background-color: #F3F0D7;
+  background-color: #ffffff;
 }
 
 .products{
@@ -212,21 +217,6 @@ body {
 a{
   font-size: 20px;
   font-family: "Microsoft JhengHei";
-  
-}
-
-.Vege_Text {
-  margin: 0px;
-  padding: 0px;
-
-  border-radius: 3px;
-  background-color: #778A50;
-
-  padding: 15px 30px;
-  font-family: "Arial Black", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
-  color: #edf2c5;
 }
 
 .Contact {
@@ -267,8 +257,8 @@ a{
 }
 
 .seller-card-color{
-  background-color: rgb(237, 236, 246);
-  color: rgb(68, 68, 68);
+  background-color: rgb(FF, FF, FF);
+  color: rgb(FF, FF, FF);
   
 }
 

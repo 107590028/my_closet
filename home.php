@@ -37,8 +37,8 @@
             
           <nav class="option_box">
             <div class="table">
-              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">首頁</a></div>
-              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">客服中心</a></div>
+              <div><a href="index.php"  class="Home">首頁</a></div>
+              <div><a href="index.php"  class="Home">客服中心</a></div>
             </div>
       
             <div class="wrap">
@@ -87,9 +87,9 @@
             
           <nav class="option_box">
             <div class="table">
-              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">首頁</a></div>
-              <div><a href="MSMS.php" style="color:#edf2c5;text-decoration:none" class="Home">我的檔案</a></div>
-              <div><a href="index.php" style="color:#edf2c5;text-decoration:none" class="Home">客服中心</a></div>
+              <div><a href="index.php" class="Home">首頁</a></div>
+              <div><a href="MSMS.php"  class="Home">我的檔案</a></div>
+              <div><a href="index.php"  class="Home">客服中心</a></div>
             </div>
       
             <div class="wrap">
@@ -163,7 +163,7 @@
       </div>
     <?php } ?>
     <footer class="text-center text-lg-start bg-light text-muted mt-3 ">
-        <div class="text-center p-4" style="background-color: #000000;color:#edf2c5">
+        <div class="text-center p-4" style="background-color: #000000">
         © 2022 Copyright C&Z / Design by Terra
       </div>
     </footer>

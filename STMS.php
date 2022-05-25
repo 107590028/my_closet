@@ -26,7 +26,7 @@ $products = mysqli_fetch_all($result);
     <div class="container ">
         <form class="col-md-3 mt-3 " method = "post">
             <div style="top: 30px;">
-                <input class = "btn btn-primary seller-card-color" type = "submit" name = "add-product" value = "+">    
+                <input class = "btn btn-dark seller-card-color" type = "submit" name = "add-product" value = "+">    
             </div>
         </form>
         <div class="row">
@@ -40,7 +40,7 @@ $products = mysqli_fetch_all($result);
                 </div>
                 <div class="card-footer text-center text-dark ">
                     <div class="">
-                        <a class = "btn btn-primary seller-card-color btn-border-green" href = "editProduct.php?id=<?php echo $product[0]; ?>">
+                        <a class = "btn btn-dark seller-card-color btn-border-green" href = "editProduct.php?id=<?php echo $product[0]; ?>">
                             編輯
                         </a>
                     </div>

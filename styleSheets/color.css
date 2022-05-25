@@ -7,7 +7,7 @@
 .customer-upper-header, 
 .customer-logout, 
 .customer-upper-info{
-    background-color: #f1cbaa;
+    background-color: #ffffff;
     }
 
 .customer-lower-header, 
@@ -23,28 +23,33 @@
 .upper-add-product-pad,
 .upper-product-card,
 .upper-edit-product-pad{
-    background-color: #f6deeb;
+    background-color: #ffffff;
     }
 
 .upper-add-product-btn,
 .upper-edit-seller,
 .upper-edit-product-btn{
-    background-color: #f7bddc;
+    background-color: #000000;
     }
 
-.seller-lower-header, 
-.seller-lower-info, 
+.seller-lower-header,  
 .lower-add-product, 
 .lower-add-product-pad,
 .lower-add-product-btn,
-.img-block,
 .lower-select-img-btn,
 .lower-edit-seller,
 .lower-product-card,
 .lower-edit-product-btn,
 .lower-edit-product-pad{
-    background-color: #f8a8d3;
-    
+    background-color: #ffffff;
+    }
+
+    .img-block{
+        background-color: #c9c9c9;
+    }
+
+    .seller-lower-info{
+        background-color: #ffffff;
     }
 
 .guest-lower-header, .lower-login-pad, .lower-login-btn, .lower-create-pad{
@@ -56,5 +61,12 @@
     }
 
 .upper-edit-info-btn{
-    background-color: #FAD7A0;
+    background-color: #000000;
     }
+
+.btn-outline-warning {
+    color: #000000;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fffaed;
+}

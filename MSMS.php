@@ -19,7 +19,7 @@ $info = mysqli_fetch_all($result, MYSQLI_ASSOC);
 $address = $info[0]['Address'];
 ?>
 
-<div class = "lower-info customer-lower-info font">
+<div class = "lower-info  font">
     <div class = "upper-info customer-upper-info">
         <div class = "info-text" style="top: 40px;">
             <?php echo "使用者名稱"; ?>
@@ -46,7 +46,7 @@ $address = $info[0]['Address'];
         </div>
 
     <form method = "post">
-        <div class="edit-info-btn lower-edit-cust" style = "top: 100px; left:650px;">
+        <div class="edit-info-btn" style = "top: 100px; left:650px;">
             <?php if(isset($_POST['edit-email-done'])){ ?>
                 <div class = "info-text" style="left:-350px;">
                     <?php echo $email; ?>
@@ -72,7 +72,7 @@ $address = $info[0]['Address'];
 
         <!-- password -->
 
-        <div class="edit-info-btn lower-edit-cust font" style = "top: 160px; left:650px;">
+        <div class="edit-info-btn font" style = "top: 160px; left:650px;">
             <?php if(isset($_POST['edit-password-done'])){ ?>
                 <div class = "info-text" style="left:-350px;">
                     <?php echo $password; ?>
@@ -97,7 +97,7 @@ $address = $info[0]['Address'];
 
         <!-- phone -->
 
-        <div class="edit-info-btn lower-edit-cust font" style = "top: 220px; left:650px;">
+        <div class="edit-info-btn font" style = "top: 220px; left:650px;">
             <?php if(isset($_POST['edit-phone-done'])){ ?>
                 <div class = "info-text" style="left:-350px;">
                     <?php echo $phone; ?>
@@ -123,7 +123,7 @@ $address = $info[0]['Address'];
         
         <!-- address -->
 
-        <div class="edit-info-btn lower-edit-cust font" style = "top: 280px; left:650px;">
+        <div class="edit-info-btn font" style = "top: 280px; left:650px;">
             <?php if(isset($_POST['edit-address-done'])){ ?>
                 <div class = "info-text" style="left:-350px;">
                     <?php echo $address; ?>
