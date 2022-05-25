@@ -22,11 +22,12 @@ body {
   text-align: left;
   color: #000000;
   margin-bottom: 20px;
+  margin-left: 45%;
   padding-left: 30px;
 } 
 
 .top{
-  display: flex;
+  display:flex  ;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
@@ -34,12 +35,13 @@ body {
   position: relative;
 }
 .icon{
+  margin-right: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
 
   position: relative;
-  top: 6px;
+  top: 15px;
 }
 
 .logoutBtn{

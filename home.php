@@ -31,8 +31,8 @@
             <div class="top">
               <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
                 <div class="icon">
-                  <a class="LOGIN_TEXT" style="color:white;text-decoration:none" href="MSDS.php">登入</a> <!--跳轉頁面 登入-->
-                </div>
+                    <a class="LOGIN_TEXT" style="color:white;text-decoration:none" href="MSDS.php">登入</a> <!--跳轉頁面 登入-->
+                </div>  
             </div>
             
           <nav class="option_box">
@@ -94,7 +94,7 @@
       
             <div class="wrap">
               <!--跳轉頁面 購物車-->
-              <div class="cart"><a href="#"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/empty-shopping-cart-1431173-1208877.png"style="display:block"width="25px" height="25px" ></a></div>
+              <div class="cart"><a href="#"><img src="images\cart.png"style="display:block"width="25px" height="25px" ></a></div>
               <div class="search">
                 <input class="search-bar" type="text" name="search" id="search" placeholder="搜尋">
                 <button class="search-btn"><img src="https://cdn.iconscout.com/icon/free/png-256/search-1399-475061.png"style="display:block;color:#edf2c5" width="20px" height="20px" ></button>
