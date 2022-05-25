@@ -27,14 +27,14 @@ if(isset($_POST['logout'])){
     <link rel="stylesheet" href="home.css">
     <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCloset</title>
+    <title>C&Z</title>
 </head>
 <body>
     <?php if($_SESSION['identity'] == 'Customer'){?>
         <!-- <div class="container"> -->
         <header class="title_bar">
             <div class="top">
-                <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+                <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
                 <div class="logoutBtn">
                     <form method = "post">
                         <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">
@@ -63,7 +63,7 @@ if(isset($_POST['logout'])){
     <?php }elseif($_SESSION['identity'] == 'Seller'){ ?>
         <header class="title_bar">
             <div class="top">
-                <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+                <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
                 <div class="logoutBtn">
                     <form method = "post">
                         <input type = "submit" class = "Logout_TEXT" name = "logout" value = "登出">

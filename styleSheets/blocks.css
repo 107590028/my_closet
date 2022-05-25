@@ -24,7 +24,7 @@
 .login-pad, .create-pad-2{
     height: 400px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 5px;
 
     position: relative;
     margin-left: auto;
@@ -46,6 +46,20 @@
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    }
+
+.login-btn2{
+    outline: none;
+    border: none;
+
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
     }
 
 .upper-login-btn:active,

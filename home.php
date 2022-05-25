@@ -22,14 +22,14 @@
     <link rel="stylesheet" href="styleSheets/product.css">
     <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCloset</title>
+    <title>C&Z</title>
   </head>
   <body>
     <?php if($_SESSION['identity'] == 'guest'){?>
       <div>
         <header class="title_bar">
             <div class="top">
-              <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+              <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
                 <div class="icon">
                   <a class="LOGIN_TEXT" style="color:white;text-decoration:none" href="MSDS.php">登入</a> <!--跳轉頁面 登入-->
                 </div>
@@ -77,7 +77,7 @@
       <div>
         <header>
           <div class="top">
-            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a>
+            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a>
               <div class="icon">
               <form method = "post">
                 <input type = "submit" style="color:white;text-decoration:none" class = "Logout_TEXT" name = "logout" value = "登出">
@@ -130,7 +130,7 @@
 
         <header class="title_bar">
           <div class="top">
-            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">MyCloset</a><!--跳轉頁面 首頁-->
+            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
             <div class="icon">
               <form method = "post">
                 <input type = "submit" style="color:white;text-decoration:none" class = "Logout_TEXT" name = "logout" value = "登出">
@@ -164,7 +164,7 @@
     <?php } ?>
     <footer class="text-center text-lg-start bg-light text-muted mt-3 ">
         <div class="text-center p-4" style="background-color: #000000;color:#edf2c5">
-        © 2022 Copyright MyCloset / Design by Terra
+        © 2022 Copyright C&Z / Design by Terra
       </div>
     </footer>
   </body>

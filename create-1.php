@@ -38,11 +38,11 @@ if(isset($_POST['next']) &&
     <link rel="stylesheet" href="styleSheets/product.css">
     <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mFfbovqgm520d484aIh6RsV2SXRGOrrPebIPLZVSSwVIKNNqstBX3E25mbH9tR_tFhk&usqp=CAU" rel="shortcut icon">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCloset</title>
+    <title>C&Z</title>
 </head>
 <body>
     <div>
-        <a class = "header-title" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
+        <a class = "header-title" style="color:black;text-decoration:none" href = "index.php">C&Z</a>
     </div>
     <div class="create-pad lower-create-pad" style = "top: 50px;">
         <form class="create-pad " style="top: -10px;" method="post">
@@ -76,7 +76,7 @@ if(isset($_POST['next']) &&
 
             <label class="identity-text-0" style="top: 296px; left: 80px;">你是？</label>
 
-            <label class="error-text" style="top: 435px; left:76px;">
+            <label class="error-text" style="top: 432px; left:110px;">
                 <?php echo $CreateError['identity']; ?>
             </label>
 
@@ -93,7 +93,7 @@ if(isset($_POST['next']) &&
                 <input type = "submit" name = "next" class = "next-btn upper-next-btn next-btn-text" style="top:-18px;" value = "下一步">
             </div>
             
-            <div class="create-text-0 font" style="top: 325px; bottom: 12px;left:138px;">已經有帳號？<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
+            <div class="create-text-0 font" style="top: 3px; bottom: 12px;left:138px;">已經有帳號？<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
         </form>
     </div>
 
