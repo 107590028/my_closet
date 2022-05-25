@@ -73,8 +73,8 @@ if(isset($_POST['logout'])){
                 
             <nav class="option_box">
                 <div class="table">
-                    <div><a href="STMS.php" class="Home">我的商品</a></div>
-                    <div><a href="SEMS.php" class="Home">商家檔案</a></div>
+                    <div><a href="STMS.php" style="color:#edf2c5;text-decoration:none" class="Home">我的商品</a></div>
+                    <div><a href="SEMS.php" style="color:#edf2c5;text-decoration:none" class="Home">商家檔案</a></div>
                 </div>
             </nav>
         </header>

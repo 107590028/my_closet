@@ -12,8 +12,8 @@ body{
     font-family: Arial;
     font-size: 44px;
     font-weight: 900;
-    text-align: left;
-    color: #FF7878;
+    text-align: center;
+    color: #000000;
     padding: 30px;
     }
 
@@ -52,7 +52,7 @@ body{
     position: relative;    
 
     font-size: 35px;
-    color:  #505f8a;
+    color:  #05060b;
     }
 
 /* .login-text-2{

@@ -41,12 +41,13 @@ if(isset($_POST['next']) &&
     <title>MyCloset</title>
 </head>
 <body>
-    <a class = "header-title" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
-
+    <div>
+        <a class = "header-title" style="color:black;text-decoration:none" href = "index.php">MyCloset</a>
+    </div>
     <div class="create-pad lower-create-pad" style = "top: 50px;">
-        <form class="create-pad upper-create-pad" style="top: -10px;" method="post">
+        <form class="create-pad " style="top: -10px;" method="post">
             <div class="login-text-1" style="top: 30px; left: 40px;">
-                Create your account
+                註冊
             </div>
 
             <input type = "text" name="email" class="text-input" style ="top: 100px;" placeholder="電子信箱"></input>
@@ -73,25 +74,26 @@ if(isset($_POST['next']) &&
                 <?php echo $CreateError['phone']; ?>
             </label>
 
-            <label class="identity-text-0" style="top: 295px; left: 75px;">你是?</label>
+            <label class="identity-text-0" style="top: 296px; left: 80px;">你是？</label>
 
             <label class="error-text" style="top: 435px; left:76px;">
                 <?php echo $CreateError['identity']; ?>
             </label>
 
-            <input type="radio" class="radio-input" name = "identity" value = "Customer" style="top: 395px; left: 77px;"></input>
+            
+            <input type="radio" class="radio-input" name = "identity" value = "Customer" style="top: 394px; left: 133px;"></input>
 
-            <label class="identity-text-1" style="top: 317px; left: 23px;">買家</label>
+            <label class="identity-text-1" style="top: 315px; left: 78px;">買家</label>
 
-            <input type="radio" class="radio-input" name = "identity" value = "Seller" style="top: 395px; left: 205px;"></input>
+            <input type="radio" class="radio-input" name = "identity" value = "Seller" style="top: 394px; left: 225px;"></input>
 
-            <label class="identity-text-1" style="top: 317px; left: 160px;">商家</label>
+            <label class="identity-text-1" style="top: 315px; left: 136px;">商家</label>
 
-            <div class = "login-btn lower-login-btn" style="top: 405px;">
-                <input type = "submit" name = "next" class = "next-btn upper-next-btn next-btn-text" style="top:-7px;" value = "下一步">
+            <div class = "login-btn lower-login-btn" style="top: 420px;">
+                <input type = "submit" name = "next" class = "next-btn upper-next-btn next-btn-text" style="top:-18px;" value = "下一步">
             </div>
             
-            <div class="create-text-0 font" style="top: 313px; bottom: 12px;left:142px;">已經有帳號?<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
+            <div class="create-text-0 font" style="top: 325px; bottom: 12px;left:138px;">已經有帳號？<a href = "MSDS.php" class = "create-text-1 font"> 登入</a></div>
         </form>
     </div>
 

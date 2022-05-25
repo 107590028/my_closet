@@ -1,7 +1,7 @@
 .guest-upper-header, 
 .upper-login-btn, 
 .upper-next-btn{
-    background-color: #778a50;
+    background-color: #494949;
     }
 
 .customer-upper-header, 
@@ -48,11 +48,11 @@
     }
 
 .guest-lower-header, .lower-login-pad, .lower-login-btn, .lower-create-pad{
-    background-color: #e1f3be;
+    background-color: #ffffff;
     }
 
 .upper-login-pad,.upper-create-pad{
-    background-color: #f4f8ea;
+    background-color: #666666;
     }
 
 .upper-edit-info-btn{

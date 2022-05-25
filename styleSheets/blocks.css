@@ -39,7 +39,7 @@
     outline: none;
     border: none;
 
-    height: 60px;
+    height: 40px;
     width: 150px;
     border-radius: 5px;
 
@@ -63,7 +63,7 @@
 .create-pad{
     height: 570px;
     width: 400px;
-    border-radius: 20px;
+    border-radius: 5px;
 
     position: relative;
     margin-left: auto;
