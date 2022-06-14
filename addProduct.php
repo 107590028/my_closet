@@ -10,7 +10,6 @@
 
 <form method="post" enctype="multipart/form-data">
     <div class="upper-add-product-pad">
-
         <input class = "cancel-text" type = "submit" name = "cancel" value = "X"></input>
         <div class="add-product-text-0">新增商品</div>
 
@@ -31,7 +30,7 @@
             <?php echo $productError['pName']; ?>
         </label>
 
-        <input class="add-product-text-input" type="text" name = "price" placeholder = "價錢" style="top:-100px;"></input>
+        <input class="add-product-text-input" type="text" name = "price" placeholder = "價格" style="top:-100px;"></input>
         <label class="error-text" style="top: 180px; left:40px;">
             <?php echo $productError['price']; ?>
         </label>

@@ -123,8 +123,8 @@
     }
 
 .upper-add-product-pad,
-.lower-edit-product-pad,
-.upper-edit-product-pad{
+.lower-edit-product-pad
+{
    
     width: 500px;
     top: 30px;
@@ -134,6 +134,23 @@
     margin-left: auto;
     margin-right: auto;
     }
+
+.upper-edit-product-pad{
+    height: 500px;
+    border-radius: 10px;
+    top: 30px;  
+    
+}
+
+.edit-pad{
+    width: 500px;
+    top: 30px;
+    border-radius: 10px;
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .edit-info-btn{
     top: 3px;
@@ -158,6 +175,14 @@
     }
 
 .img-block{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+    position: relative;
+    }
+
+.edit-img-block{
     width: 150px;
     height: 150px;
     border-radius: 10px;
