@@ -49,28 +49,5 @@ $products = mysqli_fetch_all($result);
             </form>
         <?php  } ?>  
         </div>
-    </div>
-    <!-- <?php foreach ($products as $product) {?>
-        
-        <form class="lower-product-card" method="post">
-            <div class="upper-product-card">
-                <img class="product-card-img" src = "<?php echo $product[5]; ?>">
-
-                <div class="product-card-text" style="top:10px; left: 15px;">
-                    <?php echo $product[2]; ?>
-                </div>
-
-                <div class="lower-edit-product-btn">
-                    <div class="upper-edit-product-btn">
-                        <a class = "edit-product" href = "editProduct.php?id=<?php echo $product[0]; ?>">
-                            編輯
-                        </a>
-                    </div>
-
-
-                </div>
-            </div>
-        </form>
-    <?php  } ?> -->
-        
+    </div>        
 <?php   } ?>

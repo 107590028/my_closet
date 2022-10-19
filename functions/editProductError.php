@@ -6,6 +6,7 @@ include('connect.php');
 $EditProductError = array("pName" => "", "price" => "", "stock" => "", "description" => "", "img" => "");
 
 if(isset($_POST['edit-product-done'])){
+    $_FILES['file'];
     $pName = $_POST['pName'];
     $price = $_POST['price'];
     $stock = $_POST['stock'];
@@ -50,10 +51,15 @@ if(isset($_POST['edit-product-done'])){
         }
 
     else{
-        if($_FILES['file']['error'] != 0){
-            $EditProductError['img'] = "圖片檔有錯誤";
+        if($_FILES['file']['error'] == 2 || $_FILES['file']['error'] == 1){
+            $EditProductError['img'] = "檔案尺寸錯誤";
             }
-
+        else if($_FILES['file']['error'] == 3){
+            $EditProductError['img'] = "上傳失敗";
+            }
+        else if($_FILES['file']['error'] == 4){
+            $new_path = $path;
+            }
         else{
             $file = $_FILES['file'];
             $tmp_name = $file['tmp_name'];
