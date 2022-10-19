@@ -133,7 +133,7 @@ $description = $info[0]['Description'];
 
                 <input class="edit-info-btn upper-edit-seller edit-btn-text" type = "submit" name = "edit-desc" value="編輯">
             <?php }elseif(isset($_POST['edit-desc'])){ ?>
-                <textarea class="edit-description" name="new-description" style=" left:-350px;top: -5px;">
+                <textarea class="edit-description" name="new-description" style=" left:-350px;">
                     
                 </textarea>
 

@@ -167,12 +167,10 @@ input[type = "radio"]{
     border: 2px #3f3f3f solid;
     background-color: transparent;
     width: 300px;
-    height: 145px;
+    height: 40px;
     font-size: 30px;
 
     color: #3f3f3f;
 
     position: relative;
-    left: 40px;
-    top: 20px;
     }
