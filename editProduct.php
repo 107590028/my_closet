@@ -16,10 +16,13 @@ $description = $product_info[0][3];
 $price = $product_info[0][4];
 $path = $product_info[0][5];
 $stock = $product_info[0][6];
-
 include('functions/editProductError.php');
  ?>
-
+<style>
+    a:hover{text-decoration:none;color:#000000;}
+    a:visited{text-decoration:none;color:#000000;}
+    a:link{color:#000000;}
+</style>
 <script type="text/javascript">
     function preview() {
         frame.src=URL.createObjectURL(event.target.files[0]);
@@ -28,7 +31,7 @@ include('functions/editProductError.php');
 
 <form method="post" enctype="multipart/form-data">
     <div class="upper-add-product-pad">
-        <input class = "cancel-text" type = "submit" name = "cancel" value = "X"></input>
+        <a class = "cancel-text" href="STMS.php">X</a>
         <div class="add-product-text-0">編輯商品</div>
 
         <label class="error-text" style="top: 50px; left:310px;">
