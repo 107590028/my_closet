@@ -64,7 +64,7 @@ if(isset($_POST['edit-product-done'])){
                 $file = $_FILES['file'];
                 $tmp_name = $file['tmp_name'];
                 $new_path = 'images/'.$file['name'];
-                move_uploaded_file($tmp_name, $new_path);
+                move_uploaded_file($tmp_name, $file['name']);
             }
         }
 

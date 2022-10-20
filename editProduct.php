@@ -63,7 +63,11 @@ include('functions/editProductError.php');
 
         <input class="add-pproduct-description" placeholder="商品描述" style="top:-50px;" name="product-description" value="<?php echo $description; ?>"><?php echo $EditProductError['description']; ?></input>
             <?php echo $EditProductError['description']; ?>
-
+            
+        <div class="lower-add-product-btn" style="top: -15px;">
+            <input class="upper-add-product-btn add-product-text-1" name="edit-product-done" type = "submit" value = "編輯完成"></input>
+        </div>
+        
         <div class="lower-add-product-btn" style="top: -15px;">
             <input class="upper-add-product-btn add-product-text-1" name="edit-product-done" type = "submit" value = "編輯完成"></input>
         </div>

@@ -127,10 +127,12 @@
         
     <?php }elseif($_SESSION['identity'] == 'Seller'){ ?>
       <div>
-
+      <?php 
+        header('Location: STMS.php');
+      ?>
         <header class="title_bar">
           <div class="top">
-            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="index.php">C&Z</a><!--跳轉頁面 首頁-->
+            <a class="logo_MyCloset" style="color:black;text-decoration:none" href="STMS.php">C&Z</a><!--跳轉頁面 首頁-->
             <div class="icon">
               <form method = "post">
                 <input type = "submit" style="color:white;text-decoration:none" class = "Logout_TEXT" name = "logout" value = "登出">
